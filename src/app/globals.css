@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --color-atlantic: #0b3a4d;
+  --color-atlantic-deep: #06262f;
+  --color-atlantic-soft: #135062;
+  --color-coral: #cf6410;
+  --color-coral-deep: #ad520b;
+  --color-coral-soft: #f08018;
+  --color-lagoon: #007068;
+  --color-lagoon-soft: #20a8a0;
+  --color-sand: #e8eef1;
+  --color-foam: #f4f7f8;
+  --color-ink: #1c2428;
+  --color-ink-muted: #4a575e;
+  --color-gold: #b8922e;
+
+  --font-display: var(--font-sora), "Segoe UI", sans-serif;
+  --font-sans: var(--font-figtree), "Segoe UI", sans-serif;
+
+  --animate-drift: drift 18s ease-in-out infinite;
+  --animate-rise: rise 0.9s ease-out both;
+  --animate-marquee: marquee 24s linear infinite;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(-1.5%, 1.2%, 0);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+
+  body {
+    background-color: var(--color-foam);
+    color: var(--color-ink);
+    font-family: var(--font-figtree), "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .font-display {
+    font-family: var(--font-sora), "Segoe UI", sans-serif;
+  }
+
+  .font-sans {
+    font-family: var(--font-figtree), "Segoe UI", sans-serif;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-lagoon) 35%, white);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .wave-divider {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 48' fill='none'%3E%3Cpath d='M0 24C120 8 240 0 360 4C480 8 600 28 720 32C840 36 960 24 1080 16C1200 8 1320 8 1440 20V48H0V24Z' fill='%23f4f7f8'/%3E%3C/svg%3E");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
