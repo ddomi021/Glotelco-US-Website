@@ -15,7 +15,7 @@ export function Contact() {
     const phone = String(data.get("phone") || "");
     const message = String(data.get("message") || "");
 
-    const subject = encodeURIComponent(`Glotelco inquiry — ${name}`);
+    const subject = encodeURIComponent(`Glotelco inquiry from ${name}`);
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\n${message}`,
     );
@@ -31,11 +31,11 @@ export function Contact() {
             Contact
           </p>
           <h2 className="mt-4 font-display text-3xl leading-tight font-semibold text-atlantic text-balance sm:text-4xl md:text-5xl">
-            Let&apos;s talk about your phones.
+            Let&apos;s talk about your phone system.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-ink-muted sm:text-lg">
-            Consultations are free. Call, email, or leave us a message — our
-            team in Massachusetts will get back to you.
+            The consultation is free. Give us a call, send an email, or fill
+            out the form and we&apos;ll get back to you.
           </p>
 
           <div className="mt-8 space-y-6 sm:mt-10">
@@ -76,10 +76,10 @@ export function Contact() {
           {sent ? (
             <div className="flex min-h-[260px] flex-col justify-center">
               <p className="font-display text-3xl font-semibold text-atlantic">
-                Thanks — opening your email.
+                Thanks! Your email should open now.
               </p>
               <p className="mt-3 text-base text-ink-muted sm:text-lg">
-                If your email app didn&apos;t open, write to us at{" "}
+                If it didn&apos;t open, email us at{" "}
                 <a
                   href={`mailto:${company.email}`}
                   className="font-semibold text-coral underline-offset-2 hover:underline"

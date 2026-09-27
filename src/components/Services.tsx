@@ -9,12 +9,12 @@ export function Services() {
             What we do
           </p>
           <h2 className="mt-4 font-display text-3xl leading-tight font-semibold text-atlantic text-balance sm:text-4xl md:text-5xl">
-            Installation and setup for New England businesses.
+            We install it, set it up, and make sure it works.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-ink-muted sm:text-lg">
-            Glotelco installs your company&apos;s phone system and leaves it
-            running. We focus on installation and configuration; your phone
-            service itself is handled by the provider.
+            Glotelco takes care of installing and configuring your phone
+            system. Your phone service comes from your provider, and we make
+            sure everything is set up right and working from day one.
           </p>
         </div>
 

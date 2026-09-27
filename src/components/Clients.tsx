@@ -7,14 +7,14 @@ export function Clients() {
       <div className="mx-auto max-w-6xl px-4 sm:px-5 md:px-8">
         <div className="max-w-2xl">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-lagoon">
-            Across New England
+            Our clients
           </p>
           <h2 className="mt-4 font-display text-3xl leading-tight font-semibold text-atlantic text-balance sm:text-4xl md:text-5xl">
-            Schools, medical practices, insurance agencies, and manufacturers
-            trust us.
+            Trusted by businesses across New England and beyond.
           </h2>
           <p className="mt-5 text-base leading-relaxed text-ink-muted sm:text-lg">
-            A few of the organizations we work with in Massachusetts and beyond.
+            A few of the schools, medical practices, insurance agencies, and
+            manufacturers we&apos;re proud to work with.
           </p>
         </div>
 

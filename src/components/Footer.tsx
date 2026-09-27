@@ -16,8 +16,8 @@ export function Footer() {
             />
           </div>
           <p className="mt-4 max-w-sm text-sm leading-relaxed">
-            Business phone system installation. Based in Massachusetts, serving
-            all of New England for {company.years}+ years.
+            Business phone system installation based in Massachusetts, serving
+            all of New England for over {company.years} years.
           </p>
         </div>
 

@@ -17,7 +17,7 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   title: "Glotelco | Business Phone System Installation in Massachusetts & New England",
   description:
-    "Glotelco installs business phone systems and cloud phone systems for companies across Massachusetts and New England. 15+ years and more than 3,500 customers.",
+    "Glotelco installs business phone systems for companies across Massachusetts and New England. Over 15 years in business and more than 3,500 customers.",
   openGraph: {
     title: "Glotelco | Business Phone System Installation in New England",
     description:

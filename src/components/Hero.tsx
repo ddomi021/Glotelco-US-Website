@@ -7,17 +7,21 @@ export function Hero() {
       id="home"
       className="relative min-h-[90svh] overflow-hidden bg-atlantic-deep text-foam"
     >
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 animate-drift bg-[radial-gradient(ellipse_at_15%_20%,rgba(32,168,160,0.28),transparent_42%),radial-gradient(ellipse_at_85%_30%,rgba(240,128,24,0.16),transparent_45%),linear-gradient(165deg,#06262f_0%,#0b3a4d_48%,#0c4a52_100%)]"
+      <Image
+        src="/zakim-bridge.jpg"
+        alt=""
+        fill
+        priority
+        className="object-cover object-[center_40%]"
+        sizes="100vw"
       />
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-[0.05]"
-        style={{
-          backgroundImage:
-            "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
-        }}
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(100deg,rgba(6,38,47,0.92)_0%,rgba(6,38,47,0.78)_45%,rgba(11,58,77,0.42)_100%)]"
+      />
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_85%_30%,rgba(240,128,24,0.14),transparent_45%)]"
       />
 
       <div className="relative z-20 mx-auto grid min-h-[90svh] max-w-7xl items-center gap-10 px-4 pb-20 pt-36 sm:px-5 md:px-8 lg:grid-cols-12 lg:gap-12 lg:pb-24 lg:pt-36">
@@ -26,24 +30,24 @@ export function Hero() {
             className="mb-4 animate-rise font-sans text-xs font-semibold uppercase tracking-[0.2em] text-lagoon-soft sm:mb-5 sm:text-sm sm:tracking-[0.22em]"
             style={{ animationDelay: "0.05s" }}
           >
-            Serving all of New England
+            Proudly serving New England
           </p>
 
           <h1
             className="animate-rise max-w-xl font-display text-[2.15rem] leading-[1.08] font-semibold tracking-tight text-balance sm:text-5xl md:text-6xl lg:text-[3.25rem] xl:text-6xl"
             style={{ animationDelay: "0.2s" }}
           >
-            Business phone systems, installed right.
+            Business phone systems that just work.
           </h1>
 
           <p
             className="mt-5 max-w-lg animate-rise text-base leading-relaxed text-sand/90 sm:mt-6 sm:text-lg md:text-xl"
             style={{ animationDelay: "0.32s" }}
           >
-            For {company.years}+ years, Glotelco has installed business phone
-            systems from our home base in Massachusetts — with local technical
-            support and more than {company.customers.toLocaleString("en-US")}{" "}
-            customers across New England.
+            Glotelco has been setting up phone systems for Massachusetts
+            businesses for over {company.years} years. More than{" "}
+            {company.customers.toLocaleString("en-US")} customers across New
+            England count on us for installation and local support.
           </p>
 
           <div
@@ -77,7 +81,7 @@ export function Hero() {
                 alt="Polycom VVX 500 desk phone"
                 fill
                 priority
-                className="object-contain drop-shadow-[0_22px_24px_rgba(0,0,0,0.3)]"
+                className="object-contain drop-shadow-[0_22px_24px_rgba(0,0,0,0.45)]"
                 sizes="(max-width: 1024px) 50vw, 25vw"
               />
             </figure>
@@ -87,7 +91,7 @@ export function Hero() {
                 src="/phones/phone-6.png"
                 alt="Panasonic KX-HDV230 desk phone"
                 fill
-                className="object-contain drop-shadow-[0_22px_24px_rgba(0,0,0,0.3)]"
+                className="object-contain drop-shadow-[0_22px_24px_rgba(0,0,0,0.45)]"
                 sizes="(max-width: 1024px) 50vw, 25vw"
               />
             </figure>
@@ -95,7 +99,7 @@ export function Hero() {
 
           <div className="mx-auto mt-2 max-w-md text-center sm:mt-4">
             <p className="text-sm font-semibold leading-snug text-coral-soft sm:text-base">
-              Equipment for businesses and operations of any size
+              Phones for teams of every size
             </p>
           </div>
         </aside>

@@ -91,13 +91,13 @@ export function Header() {
               aria-hidden={group === 1}
               className="flex w-screen min-w-max shrink-0 items-center justify-center px-8"
             >
-              <p className="shrink-0 whitespace-nowrap text-xs font-semibold uppercase tracking-[0.13em] sm:text-sm">
+              <p className="flex shrink-0 items-center whitespace-nowrap text-xs font-semibold uppercase tracking-[0.13em] sm:text-sm">
                 <span className="text-foam/80">Special offer</span>
-                <span aria-hidden className="mx-5 text-foam/60">—</span>
+                <span aria-hidden className="mx-5 h-1.5 w-1.5 rounded-full bg-foam/60" />
                 Free phone system
-                <span aria-hidden className="mx-5 text-foam/60">—</span>
+                <span aria-hidden className="mx-5 h-1.5 w-1.5 rounded-full bg-foam/60" />
                 Free installation
-                <span aria-hidden className="mx-5 text-foam/60">—</span>
+                <span aria-hidden className="mx-5 h-1.5 w-1.5 rounded-full bg-foam/60" />
                 3 months of free service
               </p>
             </div>

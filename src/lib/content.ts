@@ -10,62 +10,62 @@ export const company = {
 export const navLinks = [
   { href: "#cloud-phone-systems", label: "Cloud phone systems" },
   { href: "#services", label: "Services" },
-  { href: "#equipment", label: "Equipment" },
+  { href: "#equipment", label: "Phones" },
   { href: "#clients", label: "Clients" },
   { href: "#contact", label: "Contact" },
 ] as const;
 
 export const cloudFeatures = [
   {
-    title: "Fully cloud-based",
-    body: "We install your business phone system in the cloud — no server closet, no aging hardware on site, and room to grow when your business does.",
+    title: "Nothing to maintain on site",
+    body: "Your phone system runs in the cloud, so there's no server closet or aging hardware to worry about. Adding lines as you grow is easy.",
   },
   {
-    title: "One number for the whole operation",
-    body: "Desk extensions, call transfers, and a professional front door so every call is answered the way your business should answer it.",
+    title: "One number for your whole business",
+    body: "Extensions, call transfers, and a polished greeting make every caller feel taken care of.",
   },
   {
     title: "Auto attendant",
-    body: "Menus, first-come, first-served call queues, transfers, and business-hours routing set up around how you work — so every call reaches the right person.",
+    body: "Custom menus, call queues, and transfers that get every caller to the right person quickly.",
   },
   {
-    title: "Business-hours routing",
-    body: "Different call handling for open hours, after hours, holidays, and snow days — changed in minutes, not with a service call.",
+    title: "After hours and holiday routing",
+    body: "Decide how calls are handled during business hours, after hours, on holidays, and on snow days. Changes take minutes, no service call needed.",
   },
   {
-    title: "Reporting and visibility",
-    body: "See who called, which calls were missed, and how each department is answering. Clear information to improve how you serve customers.",
+    title: "Call reporting",
+    body: "See who called, which calls were missed, and how each department is keeping up, so you can spot problems early.",
   },
   {
     title: "Multiple locations, one system",
-    body: "Connect offices across Massachusetts, New England, or beyond on the same system — shared extensions, call transfers, and real-time presence.",
+    body: "Tie offices across Massachusetts, New England, or anywhere else into one system with shared extensions and easy transfers.",
   },
 ] as const;
 
 export const services = [
   {
     title: "Phone system installation",
-    body: "We design and install your company's phone system: configuration, cabling when it's needed, and a go-live that's ready for work on day one.",
+    body: "We design and install your phone system from start to finish, including any wiring, so your team is ready to go on day one.",
   },
   {
     title: "Auto attendant",
-    body: "We record and set up a professional greeting and menu that sends callers to the right department or person.",
+    body: "We record a professional greeting and build a menu that sends callers to the right person or department.",
   },
   {
     title: "Voicemail to email",
-    body: "Messages land on the extension, and a copy goes straight to the inbox of whoever needs to handle it.",
+    body: "Voicemails show up in your inbox as well as on your phone, so messages never slip through the cracks.",
   },
   {
     title: "Call monitoring",
-    body: "Listen in on staff calls when you need to keep an eye on service quality — built right into the system.",
+    body: "Listen in on calls when you want to coach your staff or keep an eye on service quality.",
   },
   {
     title: "Call reporting",
-    body: "Detailed reports by user and department so you can see productivity and make better decisions.",
+    body: "Easy to read reports by employee and department that show exactly how calls are being handled.",
   },
   {
-    title: "Call center solutions",
-    body: "First-come, first-served queues, keypad or voice routing, and tools for teams that handle a high volume of calls — without relying on old equipment.",
+    title: "Call center setups",
+    body: "Call queues, keypad and voice menus, and the tools busy teams need to keep up with heavy call volume, without relying on outdated equipment.",
   },
 ] as const;
 
@@ -87,12 +87,14 @@ export const clients: readonly Client[] = [
   { name: "Wellan School", logo: "/clients/wellan.png", href: "https://www.wellan.org/" },
   { name: "The Learning Project", logo: "/clients/learning-project.png", href: "https://www.learningproject.org/" },
   { name: "Queen Screw Manufacturing Inc.", logo: "/clients/queen-screw.png", href: "https://queenscrew.com/" },
-  { name: "WTI Group (Chicago)", logo: null, href: null },
+  { name: "WTI Group", logo: "/clients/wti.png", href: null },
   { name: "CTI Technology", logo: "/clients/cti-technology.png", href: "https://www.ctinc.com/" },
   { name: "Pediatric Health Care of Newton Wellesley", logo: "/clients/pedinw.png", href: "https://www.pedinw.org/" },
-  { name: "R.E. Lyons & Sons", logo: null, href: null },
+  { name: "R.E. Lyons & Son", logo: "/clients/re-lyons.png", href: null },
   { name: "Hub Tech Pros", logo: "/clients/hub-tech-pros.png", href: "http://hubtechpros.com/" },
   { name: "The Common Dog", logo: "/clients/common-dog.png", href: "https://www.commondog.com/" },
   { name: "Visiting Angels", logo: "/clients/visiting-angels.svg", href: "https://www.visitingangels.com/" },
   { name: "St. Pierre-Phaneuf Funeral Chapels", logo: null, href: "https://www.stpierrephaneuf.com/" },
+  { name: "Hilti", logo: "/clients/hilti.svg", href: "https://www.hilti.com/" },
+  { name: "Jarvis Products", logo: "/clients/jarvis.svg", href: "https://jarvisproducts.com/" },
 ];

@@ -1,16 +1,16 @@
 export function HowItWorks() {
   const steps = [
     {
-      title: "We listen first",
-      body: "Tell us how your office handles calls today — a front desk, several lines, or more than one location. We plan the installation around how you actually work.",
+      title: "We listen",
+      body: "Tell us how your office handles calls today, whether it's one front desk or several locations. We plan the installation around the way you work.",
     },
     {
-      title: "We install and configure",
-      body: "We set up the system, desk phones, auto attendant, voicemail, and whatever else your operation needs — ready to work from day one.",
+      title: "We install",
+      body: "We set up your system, desk phones, auto attendant, and voicemail so everything is ready when your team walks in.",
     },
     {
-      title: "We stay available",
-      body: "Local technical support in Massachusetts whenever you need to adjust call routing, extensions, or equipment. Straight answers, no runaround.",
+      title: "We stick around",
+      body: "Need to change call routing, add an extension, or swap out a phone? Our local team in Massachusetts is just a phone call away.",
     },
   ];
 
@@ -34,7 +34,7 @@ export function HowItWorks() {
             How we work
           </p>
           <h2 className="mt-4 font-display text-3xl leading-tight font-semibold text-balance sm:text-4xl md:text-5xl">
-            From first visit to installation, without the hassle.
+            From the first conversation to a system that works.
           </h2>
         </div>
 

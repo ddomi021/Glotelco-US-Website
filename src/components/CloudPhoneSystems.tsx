@@ -25,9 +25,9 @@ export function CloudPhoneSystems() {
               Cloud phone systems
             </h2>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-sand/90 sm:text-lg">
-              We install cloud-based business phone systems: calling, call
-              routing, and reporting in a single system — backed by
-              Glotelco&apos;s local team in Massachusetts.
+              We set up cloud phone systems that handle your calls, call
+              routing, and reporting all in one place, with support from our
+              local team in Massachusetts.
             </p>
           </div>
 
@@ -39,8 +39,8 @@ export function CloudPhoneSystems() {
               customers trust Glotelco
             </p>
             <p className="mt-3 text-sm leading-relaxed text-sand/70">
-              More than {company.years} years installing business phone
-              systems across New England.
+              Over {company.years} years installing phone systems across New
+              England.
             </p>
           </aside>
         </div>
